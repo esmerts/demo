@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="right">
-            <router-link :to="{ name: 'basismsg' }">企业首页</router-link>
+            <router-link :to="{ name: 'basismsg' }" exact>企业首页</router-link>
             <router-link :to="{ name: 'account' }">账号设置</router-link>
             <router-link :to="{ name: 'message' }"
               >消息
