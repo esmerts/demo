@@ -41,7 +41,7 @@
           </label>
         </div>
         <div class="item">
-          <label for="" class="name"
+          <label for="tel" class="name"
             >联系人电话
             <input
               type="text"
