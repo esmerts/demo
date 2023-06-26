@@ -12,6 +12,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang="less">
+.loading-container {
+  height: 858px;
+}
 </style>

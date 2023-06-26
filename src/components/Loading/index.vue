@@ -17,8 +17,7 @@ export default {};
 
 .loading-container {
   width: 100%;
-  height: calc(100vh - 200px);
-  min-height: 500px;
+  height: 838px;
   background: @bg;
   position: relative;
   .wrapper {
