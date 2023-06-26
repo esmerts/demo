@@ -1,3 +1,4 @@
+<!-- 页脚组件 -->
 <template>
   <div class="footer-container">
     <!-- 页脚顶部 -->

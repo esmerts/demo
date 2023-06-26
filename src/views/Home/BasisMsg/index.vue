@@ -1,11 +1,14 @@
 <template>
   <div class="basis-container">
+    <!-- 标题 -->
     <div class="title">基本设置</div>
     <div class="main-content">
+      <!-- 头像部分 -->
       <div class="left">
         <div class="icon-avatar"></div>
         <button class="btn">更换头像</button>
       </div>
+      <!-- 表单部分 -->
       <div class="right">
         <div class="item">
           <div class="name">用户ID</div>
@@ -95,12 +98,7 @@ export default {
   },
   methods: {
     handleChange(e) {
-      console.log(
-        e.target.value,
-        this.form.name,
-        this.backups.name,
-        e.target.id
-      );
+      // 与created声明周期函数中保存在backups中的数据进行对比，不同时改变按钮的状态
       if (e.target.value === this.backups[e.target.id]) {
         this.$refs.btn.classList.remove("btn-active");
       } else {

@@ -1,3 +1,4 @@
+<!-- 实名认证页面 -->
 <template>
   <div>
     <Loading/>
