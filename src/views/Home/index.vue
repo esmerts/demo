@@ -56,7 +56,8 @@ export default {};
   .main-home {
     width: 100%;
     .content {
-      margin: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
     }
   }
 }
